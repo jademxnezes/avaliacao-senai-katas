@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.1.0_x64__8wekyb3d8bbwe;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\User\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: read ECONNRESET
+      at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+
+npm manifest: 
+  {
+    "name": "avaliacao-senai-katas",
+    "author": "senai",
+    "description": "Avaliação I da disciplina de testes de software do Senai",
+    "scripts": {
+      "start": "tsdx watch",
+      "build": "tsdx build",
+      "test": "tsdx test --watchAll",
+      "lint": "tsdx lint",
+      "prepare": "tsdx build"
+    },
+    "devDependencies": {
+      "@size-limit/preset-small-lib": "^7.0.8",
+      "husky": "^7.0.4",
+      "size-limit": "^7.0.8",
+      "tsdx": "^0.14.1",
+      "tslib": "^2.3.1",
+      "typescript": "^4.5.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
